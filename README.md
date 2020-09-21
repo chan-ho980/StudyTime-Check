@@ -1,2 +1,3 @@
 # StudyTime-Check
- This is my Study-site to check study-time
+
+This is my Study-site to check study-time for us

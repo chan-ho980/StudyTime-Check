@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 50px;
+  padding-bottom: 100px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+input {
+  margin: 10px 20px;
+  width: 40em;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+input:required {
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid white;
+}
+input::-webkit-input-placeholder {
+  font-style: italic;
+  text-align: center;
+}
+input:focus {
+  border-bottom: 1px solid var(#d8d3cd);
+}

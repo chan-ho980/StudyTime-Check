@@ -1,0 +1,17 @@
+@import "var.css";
+@import "reset.css";
+
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+/*page css*/
+@import "screen/login.css";
+@import "screen/main.css";
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f7f2e7;
+  font-family: "Nanum Pen Script", cursive;
+  color: var(--black);
+}
